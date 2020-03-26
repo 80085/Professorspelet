@@ -1,4 +1,4 @@
-from sr
+from professorspelet.professorspelet import Professor, Tile, Puzzle
 
 if __name__ == '__main__':
     tiles = [
