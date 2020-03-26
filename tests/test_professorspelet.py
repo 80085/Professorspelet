@@ -1,6 +1,5 @@
 import unittest
-from professorspelet import Professor, Tile, Puzzle
-
+from professorspelet.professorspelet import Professor, Tile, Puzzle
 
 class TestProfessor(unittest.TestCase):
     def test_create_is_case_insensitve(self):
@@ -166,6 +165,6 @@ class TestPuzzle(unittest.TestCase):
         puzzle = Puzzle(tiles)
         self.assertTrue(puzzle.solution())
 
-
 if __name__ == '__main__':
     unittest.main()
+
